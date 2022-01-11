@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto+Slab&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.innerright,label {
+    color: rgb(254, 247, 255);
+    font-weight:bold;
+}
+.container,
+.row,
+.imglogo {
+    margin:auto;
+}
+
+.innerdiv {
+    text-align: center;
+    /* width: 500px; */
+    margin: 80px;
+}
+input{
+    margin-left:20px;
+}
+.leftinnerdiv {
+    float: left;
+    width: 25%;
+}
+
+.rightinnerdiv {
+    margin-top: 4px;
+    float: right;
+    width: 75%;
+}
+
+.innerright {
+    background-color: rgba(218, 218, 255,0.3);
+
+}
+
+.greenbtn {
+    background-color: rgb(67, 144, 251);
+    color: rgb(48, 117, 228);
+    width: 95%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.greenbtn,
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.greenbtn:hover{
+    cursor: pointer;
+}
+
+th{
+    background-color: rgb(129, 90, 255);
+    color: black;
+}
+td{
+    background-color: #c6ceff;
+    color: black;
+}
+td, a{
+    color:black;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+p{
+    /* text-align: left; */
+    font-family: 'Cinzel', serif;
+}
